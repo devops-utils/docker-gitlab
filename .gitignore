@@ -1,3 +1,7 @@
 *.gem
 *.tar.gz
 *.tar.bz2
+
+.idea
+.DS_Store
+docker-compose1.yml
