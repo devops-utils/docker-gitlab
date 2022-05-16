@@ -7,6 +7,9 @@ mkdir -p gitlab-data/certs
 sudo docker-compose -f docker-compose1.yml up -d
 sudo docker-compose -f docker-compose1.yml down
 
+sudo docker-compose -f docker-compose1.yml up -d gitlab
+sudo docker-compose -f docker-compose1.yml stop gitlab
+
 sudo docker-compose -f docker-compose1.yml logs -f
 
 sudo docker exec -it docker_gitlab_1 bash
