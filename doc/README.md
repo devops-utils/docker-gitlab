@@ -4,6 +4,8 @@ sudo docker-compose up -d
 
 mkdir -p gitlab-data/certs
 
+sudo docker volume inspect docker_gitlab-data
+
 sudo docker-compose -f docker-compose1.yml up -d
 sudo docker-compose -f docker-compose1.yml down
 
