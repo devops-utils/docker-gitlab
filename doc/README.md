@@ -18,7 +18,10 @@ sudo docker exec -it docker_gitlab_1 bash
 gitlab-ctl reconfigure
 gitlab-rails console
 Notify.test_email('noreply@7otech.com','邮件标题','邮件内容').deliver_now
-
+apt-get update
+apt-get install net-tools
+netstat -tlnp
+    
 sudo docker exec -it docker_postgresql_1 bash
 sudo docker exec -it docker_redis_1 bash
 
