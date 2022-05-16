@@ -11,4 +11,6 @@ sudo docker volume ls
 sudo docker volume rm docker_gitlab-data
 sudo docker volume rm docker_postgresql-data
 sudo docker volume rm docker_redis-data
+
+http://49.232.6.131:8094/
 ```
